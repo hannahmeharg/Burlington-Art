@@ -42,11 +42,11 @@
         print '</li>';
         
           print '<li class="';
-        if ($path_parts['filename'] == "Submit Art") {
+        if ($path_parts['filename'] == "Featured Art") {
             print ' activePage ';
         }
         print '">';
-        print '<a href="submit.php">Submit Art</a>';
+        print '<a href="featured.php">Featured Art</a>';
         print '</li>';
           ?>
     </ol>
