@@ -8,22 +8,7 @@
         print '">';
         print '<a href="home.php">Home</a>';
         print '</li>';
-        
-          print '<li class="';
-        if ($path_parts['filename'] == "About us") {
-            print ' activePage ';
-        }
-        print '">';
-        print '<a href="aboutus.php">About us</a>';
-        print '</li>';
-        
-          print '<li class="';
-        if ($path_parts['filename'] == "Contact") {
-            print ' activePage ';
-        }
-        print '">';
-        print '<a href="contact.php">Contact</a>';
-        print '</li>';
+       
         
           print '<li class="';
         if ($path_parts['filename'] == "Local Artists") {
@@ -47,6 +32,22 @@
         }
         print '">';
         print '<a href="featured.php">Featured Art</a>';
+        print '</li>';
+        
+            print '<li class="';
+        if ($path_parts['filename'] == "Events") {
+            print ' activePage ';
+        }
+        print '">';
+        print '<a href="events.php">Events</a>';
+        print '</li>';
+        
+            print '<li class="';
+        if ($path_parts['filename'] == "Contact") {
+            print ' activePage ';
+        }
+        print '">';
+        print '<a href="contact.php">Contact</a>';
         print '</li>';
           ?>
     </ol>
