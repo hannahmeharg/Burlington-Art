@@ -1,4 +1,4 @@
 <header>
-    <h1>Welcome</h1>
+    <h1>Burlington Art</h1>
     
 </header>
