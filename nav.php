@@ -1,3 +1,4 @@
+<!-- ######################     Start of Nav   ############################# -->
 <nav>
     <ol>
         <?php
@@ -47,8 +48,9 @@
             print ' activePage ';
         }
         print '">';
-        print '<a href="contact.php">Contact</a>';
+        print '<a href="form.php">Contact</a>';
         print '</li>';
           ?>
     </ol>
 </nav>
+<!-- #########################    End of Nav   ############################# -->
