@@ -67,6 +67,9 @@ include ('top.php');
         developed over the course of the past year as part of the 2017 Barbara Smail Award. Free Admission. 
         <br><br>
         
+    <?php
+    include ('footer.php');
+    ?>
     </body>
        
 </html>
