@@ -1,15 +1,16 @@
 /*============================= form =========================================*/
-#contact {
+#form {
     background-color: #fff;
 }
 
 
-#contact form{
+#form form{
     font-size: 14pt;
     font-family: Tahoma, Verdana, Segoe, sans-serif;
     margin: auto;
     
 }
+
 
 label {
     color: #000;
@@ -17,7 +18,7 @@ label {
     font-weight: bold;
 }
 
-.contact-heading {
+.form-heading {
     border-bottom: 2px solid #ddd;
     font-size: 1.25em;
     font-style: italic;
@@ -34,7 +35,7 @@ label {
     text-align: right;
 }
 
-#contact input{
+#form input{
     box-sizing: border-box;
     border: 2px solid #000;
     box-shadow: 2px 2px 4px #EBEBEB; 
@@ -43,11 +44,11 @@ label {
     outline: solid;
 }
 
-#contact input:focus{
+#form input:focus{
     border: 1px solid #000;
 }
 
-#contact input[type=submit]{
+#form input[type=submit]{
     background: #005cb3 none repeat scroll 0 0;
     border: medium none;
     border-radius: 3px;
@@ -78,7 +79,7 @@ p.clear{
 
 
 fieldset.checkbox{
-    padding-right: 6%;
+    padding-right: 3.7%;
 }
 
 fieldset.contactInfo{
@@ -98,7 +99,7 @@ fieldset.textarea{
 }
 
 fieldset.listbox{
-    padding-right: 2.7%;
+    padding-right: 3%;
 }
 
 
