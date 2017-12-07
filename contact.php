@@ -6,8 +6,11 @@ include 'top.php';
 //
 // SECTION: 1a.
 // We print out the post array so that we can see our form is working.
-// if ($debug){  // later you can uncomment the if statement
-// }
+if ($debug){  // later you can uncomment the if statement
+    print '<p>Post Array:</p><pre>';
+    print_r($_POST);
+    print '</pre>';
+}
 
 //%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
 //
@@ -43,7 +46,6 @@ $noGallery = false;  //not checked
 
 $questions = '';
 
-
 //%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
 //
 // SECTION: 1d form error flags
@@ -63,8 +65,8 @@ $mediumError = false;
 $galleryERROR = false;
 $totalChecked = 0;
 
-
 $questionsERROR = false;
+
 ////%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
 //
 // SECTION: 1e misc variables
@@ -142,7 +144,7 @@ if (isset($_POST["btnSubmit"])) {
     }
     $dataRecord[] = $galleryThree;
     
-            if (isset($_POST["chkGalleryFour"])) {
+        if (isset($_POST["chkGalleryFour"])) {
         $galleryFour = true;
         $totalChecked++;
     } else {
@@ -285,7 +287,7 @@ if (isset($_POST["btnSubmit"])) {
     $from = 'Evan Ray <evan.ray@uvm.edu>';    
         
     // subject of mail should make sense to your form    
-    $subject = 'Changing Earth: ';    
+    $subject = 'Burlington Art';    
         
     $mailed = sendMail($to, $cc, $bcc, $from, $subject, $message);    
         
@@ -364,7 +366,7 @@ if (isset($_POST["btnSubmit"])) {
         make it stand out that a mistake happened here.
     */
 ?>
-    
+
     <form action="<?php print $phpSelf; ?>"
           id="frmSubmit"
           method="post">
@@ -460,13 +462,13 @@ if (isset($_POST["btnSubmit"])) {
                     name="lstMedium"
                     tabindex="520" >
                 <option <?php if($medium=="Drawing") print " selected "; ?>
-                    value="Drawing">Drawing</option>
+                    value="Drawing"> Drawing</option>
                 
                 <option <?php if($medium=="Painting") print " selected "; ?>
-                    value="Painting">Painting</option>
+                    value="Painting"> Painting</option>
                 
                 <option <?php if($medium=="Sculpture") print " selected "; ?>
-                    value="Sculpture">Sculpture</option>
+                    value="Sculpture"> Sculpture</option>
                 </select>
         </p>           
             </fieldset>
@@ -490,7 +492,7 @@ if (isset($_POST["btnSubmit"])) {
                         id="chkGalleryTwo"
                         name="chkGalleryTwo"
                         tabindex="430"
-                        type="checkbox" 
+                        type="checkbox"
                         value="GalleryTwo"> The BCA Center</label>
             </p>
             
@@ -522,8 +524,7 @@ if (isset($_POST["btnSubmit"])) {
                         tabindex="430"
                         type="checkbox"
                         value="NoGallery"> No</label>
-            </p>            
-            
+            </p>    
         </fieldset>
         
         <fieldset class="textarea">
@@ -539,6 +540,7 @@ if (isset($_POST["btnSubmit"])) {
             </p>
         </fieldset>   
             
+        
         <fieldset class="buttons">
             <legend></legend>
             <input class="button" id="btnSubmit" name="btnSubmit" tabindex="900" type="submit" value="Submit" >
@@ -548,10 +550,11 @@ if (isset($_POST["btnSubmit"])) {
     <?php 
         } //end body submit
     ?>
-    <p class="clear"></p>
+        <p class="clear"></p>
     </article>
 
 <?php include 'footer.php'; ?>
 
 </body>
 </html>
+
