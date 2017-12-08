@@ -317,3 +317,53 @@ header h1{
 #events{
     margin: 15px
 }
+
+/*=============================== home ==================================*/
+
+#home figure .hannah {
+   width: 25%;
+   height:25%
+}
+
+#home h1{
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 3.5em;
+    
+}
+   
+#home h2{
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 1.5em;
+}
+
+#home figcaption{
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 1em;
+}
+
+/*=============================== home ==================================*/
+
+#artists h1{
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 3.5em;
+    
+}
+    
+#artists figcaption{
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 1em;
+}
+#artists figure .artists {
+    width: 200px;
+    height: 200px;
+}
+
+#artists figure .artist1 {
+    width: 250px;
+    height: 200px;
+}
+
+#artists figure .artist2 {
+    width: 200px;
+    height: 250px;
+}
