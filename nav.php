@@ -32,7 +32,7 @@
             print ' activePage ';
         }
         print '">';
-        print '<a href="art.php">Featured Art</a>';
+        print '<a href="featured.php">Featured Art</a>';
         print '</li>';
         
             print '<li class="';
