@@ -1,4 +1,3 @@
-
 <?php
 include ('top.php');
 ?>
@@ -55,13 +54,13 @@ include ('top.php');
                  <div class="container">
                     <img class="image" src="../images/money-right-5.jpg" style="width: 100%"/>
                     <div class="overlay">
-                        <div class="text">Money right</div>
+                        <div class="text"></div>
                     </div>
                 </div>
                 <div class="container">
                     <img class="image" src="../images/beloved.jpg" style="width: 100%"/>
                     <div class="overlay">
-                        <div class="text">    'Beloved'<br>Linda Di Sante</div>
+                        <div class="text">'Beloved'<br>Linda Di Sante</div>
                     </div>
                 </div>
                <div class="container">
@@ -76,13 +75,13 @@ include ('top.php');
                 <div class="container">
                     <img class="image" src="../images/curiosity.jpg" style="width: 100%"/>
                     <div class="overlay">
-                        <div class="text">   'Curiosity'<br>David Russel</div>
+                        <div class="text">'Curiosity'<br>David Russel</div>
                     </div>
                 </div>
                 <div class="container">
                     <img class="image" src="../images/serpent.jpg" style="width: 100%"/>
                     <div class="overlay">
-                        <div class="text">   'Serpent'<br>Jean Cherouny</div>
+                        <div class="text">'Serpent'<br>Jean Cherouny</div>
                     </div>
                 </div>
                 <div class="container">
@@ -100,25 +99,25 @@ include ('top.php');
                  <div class="container">
                      <img class="image" src="../images/the-hill.jpg" style="width: 100%"/>
                     <div class="overlay">
-                        <div class="text">     'The Hill'<br>Frank DeAngelis</div>
+                        <div class="text">'The Hill'<br>Frank DeAngelis</div>
                     </div>
                 </div>
                   <div class="container">
                     <img class="image" src="../images/toast.jpg" style="width: 100%"/>
                     <div class="overlay">
-                        <div class="text">TOAST</div>
+                        <div class="text"></div>
                     </div>
                 </div>
                 <div class="container">
                     <img class="image" src="../images/amanda1.jpg" style="width: 100%"/>
                     <div class="overlay">
-                        <div class="text">AMANDA</div>
+                        <div class="text">'La Platte River Dusk'<br>Amanda Amend</div>
                     </div>
                 </div>
                  <div class="container">
                      <img class="image" src="../images/elise_whittemore_specimen_book.jpg" style="width: 100%"/>
                     <div class="overlay">
-                        <div class="text">ELISE</div>
+                        <div class="text">'Specimen Book 5<br>Elise Whittemore</div>
                     </div>
                 </div> 
                 
@@ -148,7 +147,7 @@ include ('top.php');
                 <div class="container">
                     <img class="image" src="../images/disaster.jpg" style="width: 100%"/>
                     <div class="overlay">
-                        <div class="text">   'Disaster'<br>Frank DeAngelis</div>
+                        <div class="text">'Disaster'<br>Frank DeAngelis</div>
                     </div>
                 </div>
                 <div class="container">
@@ -160,19 +159,19 @@ include ('top.php');
                 <div class="container">
                     <img class="image" src="../images/pete2.jpg" style="width: 100%"/>
                     <div class="overlay">
-                        <div class="text">PETE</div>
+                        <div class="text">'ORBS of wabi-sabi'<br>Pete Boardman</div>
                     </div>
                 </div>
                 <div class="container">
                    <img class="image" src="../images/Bushey.jpg" style="width: 100%"/>
                    <div class="overlay">
-                       <div class="text">BUSH</div>
+                       <div class="text">Thesis work<br>Brandy Sue Bushey</div>
                    </div>
                 </div>
                 <div class="container">
                    <img class="image" src="../images/collapse.jpg" style="width: 100%"/>
                    <div class="overlay">
-                       <div class="text">Beloved</div>
+                       <div class="text">'Collapse'<br>Mia Feuer</div>
                    </div>
                    
                 </div>
