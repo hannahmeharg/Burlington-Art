@@ -4,12 +4,28 @@ include ('top.php');
 
 <!DOCTYPE HTML>
 <html
-    <h1> Upcoming Events: </h1>
+    <h1><big> Upcoming Events: </big></h1>
+    <link rel="stylesheet" href="artcss.css">
     <body>
+        <h3>Exhibiting the Sacred: Religion, Race, and Representation </h3>
+        <h4>Thursday, December 7, 2017, 3:00 PM</h4>
+        Join Vicki Brennan, UVM Professor of Religion and Director of UVM’s African Studies Program, talk about how sacred objects are transformed when they <br>enter the museum and the impact religious objects has on viewers. 
+        <br><br>
+        
+        <hr>
+         
+        <h3>UVM CS FAIR </h3>
+        <h4>Friday, December 8, 2017, 2:20 - 3:10 PM</h4>
+        Join the UVM community celebrate their computer science students and their hard work at the end of the semester Computer Science fair. <br>
+        The founders, Natasha Geffin, Hannah Meharg, and Evan Ray will be presenting this website and we would love to our two worlds, art and computer science <br> unite! See you there!
+        <br><br>
+        
+        <hr>
+        
         <h3>HOLIDAY ARTIST MARKET </h3>
         <h4>Friday, December 15, 2017, 4:00 - 8:00 PM</h4>
         <h4>Saturday, December 16, 2017, 10:00 AM - 5:00 PM</h4>
-        The 2017 BCA Holiday Artist Market will be held in Contois Auditorium located in Burlington's City Hall.
+        The 2017 BCA Holiday Artist Market will be held in Contois Auditorium located in Burlington's City Hall. The BCA markets features handmade gifts by <br> Vermont artisits. 
         Shop local this season!
         <br><br>
         
@@ -25,54 +41,56 @@ include ('top.php');
         
         <h3>WINTER EXHIBITIONS OPENING RECEPTION </h3>
         <h4>Friday, January 19, 2018, 6:00 - 8:00 PM</h4>
-        Join the Burlington Art Center for the Opening Reception for three new contemporary exhibitions featuring the work of Vermont-based artists Dusty Boynton,
-        Edwin Owre, and Elise Whitemore.
+        The Opening Reception for three new contemporary exhibitions featuring the work of artists Dusty Boynton, Edwin Owre, and Elise Whittemore will be held <br>
+        at the Burlington Art Center. 
+    
         <br><br>
         
         <hr>
         
         <h3>FAMILY ART SATURDAY AT THE BCA CENTER </h3>
         <h4>Saturday, January 20, 2018, 11:00 AM - 1:00 PM</h4>
-        Families are invited to drop-in to the BCA Center and enjoy an art activity inspired by our current exhibition. 
-        Get creative and make art together!
+        The Burlington Art Center is excited to hold another Family Art Saturday! Families are welcomed to stop by and enjoy and activity inspired by current <br>
+        exhibitions.
         <br><br>
         
         <hr>
         
         <h3>ARCHITECTURE & DESIGN FILM SERIES- I, CLAUDE MONET </h3>
         <h4>Wednesday, January 24, 2018, 6:00 PM</h4>
-        Join the Burlington Art Center for a thoughtful and provoking discussion on a film about Claude Monet.
+        Join the Burlington Art Center for a thoughtful and provoking discussion on a film about Claude Monet. The film takes a look at Monet's life through <br>
+        private writings and reveals new insights on one of the world's favorite artists. 
         <br><br>
         
          <hr>
         
         <h3>A CONVERSATION WITH EDWIN OWRE </h3>
         <h4>February 1, 2018, 6:00PM - 7:30PM</h4>
-        Artist and art educator, Edwin Owre, will discuss his exhibition of recent abstract "constructions" that explore the possibilities of drawing and the gesture in conversation with fellow UVM Professor Emeritus, Bill Lipke.
+        The Burlington Art Center is excited to host Edwin Owre as he discusses his exhibition of his recent abstract "constructions" that dive into the <br> explorations of drawings. 
+        
         <br><br>
         
         <hr>
         
         <h3>FAMILY ART SATURDAY AT THE BCA CENTER </h3>
         <h4>Saturday, February 17, 2018, 11:00 AM - 1:00 PM</h4>
-        Families are invited to drop-in to the BCA Center and enjoy an art activity inspired by our current exhibition. 
-        Get creative and make art together!
+        The Burlington Art Center is excited to hold another Family Art Saturday! Families are welcomed to stop by and enjoy and activity inspired by current <br>
+        exhibitions.
         <br><br>
         
         <hr>
         
         <h3>ART TALK: ELISE WHITTEMORE </h3>
         <h4>Thursday, February 22, 2018, 6:00PM - 7:30PM</h4>
+        
         Elise Whittemore discusses her new body of work created for her current exhibition focused on printmaking multiples, books, and installation 
-        developed over the course of the past year as part of the 2017 Barbara Smail Award. Free Admission. 
+        developed over <br>the course of the past year as part of the 2017 Barbara Smail Award. Free Admission. 
         <br><br>
         
-    <?php
-    include ('footer.php');
-    ?>
     </body>
        
 </html>
 
-
-
+<?php
+include ('footer.php');
+?>
